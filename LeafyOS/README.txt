@@ -54,22 +54,14 @@ for use as a daily operating system.
 Purpose:
 LeafyOS is built to be education-based and productivity-focused. It aims to provide:
 - A safe environment for learning computer science concepts
-- Tools for quizzes, notes, and study
-- Basic productivity modules
-- Simple hardware drivers for essential devices
 - A clear example of how an operating system is structured
+
+
+- 
 
 Motto:
 "Never Back Down, Never Give Up"
 
-Future Roadmap:
-LeafyOS is still growing. Planned features include:
-- Quiz engine module for interactive learning
-- Notes module with save/load functionality
-- Improved GUI with window management
-- Networking tools for safe research
-- File manager for organizing documents
-- Expanded driver support for more hardware
 
 Credits:
 LeafyOS is created and developed by leafydevx.
@@ -103,3 +95,4 @@ Steps:
 
 4. LeafyOS will start, load drivers from leafy32/, and initialize modules.
 ⚠️ Important: LeafyOS is for learning computer science only. Do not install it on your main computer. Always run it inside an emulator or virtual machine.
+
