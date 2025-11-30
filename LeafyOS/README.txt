@@ -107,3 +107,64 @@ LeafyOS is completely safe to run in an emulator (QEMU, VirtualBox).
 It is designed for educational purposes only and will NOT harm your system at any circumstances.
 
 
+
+Motherboard example: 
++------------------------------------------------------+
+|                                                      |
+|   [ CPU Socket (LGA 1700) ]                          |
+|       └── Where the Intel processor is installed.    |
+|                                                      |
+|   [ VRM / Power Phases ]                             |
+|       └── Regulates voltage for the CPU.             |
+|                                                      |
+|   [ DIMM Slots (DDR4/DDR5) ]                         |
+|       └── RAM modules go here.                       |
+|                                                      |
+|   [ Chipset (Intel B760/Z790 etc.) ]                 |
+|       └── Controls communication between CPU, RAM,   |
+|           storage, and peripherals.                  |
+|                                                      |
+|   [ PCIe x16 Slot ]                                  |
+|       └── Graphics card.                             |
+|   [ PCIe x1 Slots ]                                  |
+|       └── Expansion cards (WiFi, sound, etc.).       |
+|                                                      |
+|   [ M.2 Slots ]                                      |
+|       └── NVMe SSDs for ultra-fast storage.          |
+|                                                      |
+|   [ SATA Ports ]                                     |
+|       └── HDDs and SATA SSDs.                        |
+|                                                      |
+|   [ 24-pin ATX Power Connector ]                     |
+|       └── Main power from PSU.                       |
+|   [ 8-pin CPU Power Connector ]                      |
+|       └── Extra CPU power.                           |
+|                                                      |
+|   [ Fan Headers ]                                    |
+|       └── Connect case fans and CPU cooler.          |
+|                                                      |
+|   [ BIOS/UEFI Chip ]                                 |
+|       └── Firmware that boots the system.            |
+|                                                      |
+|   [ Front Panel Header ]                             |
+|       └── Case buttons (power, reset) & LEDs.        |
+|                                                      |
+|   [ USB Headers ]                                    |
+|       └── Case USB ports (2.0, 3.0, Type-C).         |
+|                                                      |
+|   [ Audio Header ]                                   |
+|       └── Case front audio jacks.                    |
+|                                                      |
+|   [ TPM Header ]                                     |
+|       └── Trusted Platform Module for security.      |
+|                                                      |
+|   [ Back Panel I/O ]                                 |
+|       ├── HDMI / DisplayPort / VGA                   |
+|       ├── USB 2.0 / USB 3.2 / USB-C                  |
+|       ├── Ethernet (1Gb/2.5Gb)                       |
+|       ├── Audio jacks (line out, mic, surround)      |
+|       └── WiFi antenna connectors (if present).      |
++------------------------------------------------------+
+
+
+
