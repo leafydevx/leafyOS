@@ -1,0 +1,8 @@
+LOAD drivers/drv.video
+LOAD drivers/drv.keyboard
+LOAD drivers/drv.audio
+LOAD drivers/drv.mouse
+LOAD drivers/drv.disk
+LOAD modules/fs.mod
+LOAD modules/net.mod
+LOAD modules/gui.mod

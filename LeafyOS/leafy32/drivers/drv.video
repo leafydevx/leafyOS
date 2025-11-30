@@ -1,0 +1,28 @@
+// drv.video — video driver
+#include "driver.h"
+
+static leafy_status_t v_init(void* kap) { (void)kap; return LEAFY_OK; }
+static leafy_status_t v_start(void)     { return LEAFY_OK; }
+static leafy_status_t v_stop(void)      { return LEAFY_OK; }
+static const char*    v_name(void)      { return "LeafyVideo Driver Started"; }
+
+leafy_driver_header_t LeafyHeader = {
+    .magic   = LEAFY_MAGIC,
+    .version = LEAFY_DRIVER_VERSION,
+    .class_id= DRV_CLASS_VIDEO,
+    .reserved= 0
+};
+
+typedef struct {
+    drv_init_fn  init;
+    drv_start_fn start;
+    drv_stop_fn  stop;
+    drv_name_fn  name;
+} drv_table_t;
+
+drv_table_t LeafyTable = {
+    .init  = v_init,
+    .start = v_start,
+    .stop  = v_stop,
+    .name  = v_name
+};

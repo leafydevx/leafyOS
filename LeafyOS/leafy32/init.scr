@@ -1,0 +1,15 @@
+# LeafyOS Startup Script
+# Runs after kernel initialization
+
+PRINT "Starting LeafyOS..."
+
+LOAD sys.cfg          ; apply system configuration
+LOAD drv.video        ; initialize video driver
+LOAD drv.audio        ; initialize audio driver
+LOAD drv.input        ; initialize input driver
+
+PRINT "Drivers loaded successfully."
+
+RUN leafy.cmd         ; optional command file if present
+
+PRINT "Welcome to LeafyOS!"

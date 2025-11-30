@@ -1,0 +1,28 @@
+// drv.keyboard — keyboard driver
+#include "driver.h"
+
+static leafy_status_t k_init(void* kap) { (void)kap; return LEAFY_OK; }
+static leafy_status_t k_start(void)     { return LEAFY_OK; }
+static leafy_status_t k_stop(void)      { return LEAFY_OK; }
+static const char*    k_name(void)      { return "LeafyKeyboard Driver Started"; }
+
+leafy_driver_header_t LeafyHeader = {
+    .magic   = LEAFY_MAGIC,
+    .version = LEAFY_DRIVER_VERSION,
+    .class_id= DRV_CLASS_KEYBOARD,
+    .reserved= 0
+};
+
+typedef struct {
+    drv_init_fn  init;
+    drv_start_fn start;
+    drv_stop_fn  stop;
+    drv_name_fn  name;
+} drv_table_t;
+
+drv_table_t LeafyTable = {
+    .init  = k_init,
+    .start = k_start,
+    .stop  = k_stop,
+    .name  = k_name
+};
