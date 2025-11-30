@@ -96,3 +96,14 @@ Steps:
 4. LeafyOS will start, load drivers from leafy32/, and initialize modules.
 ⚠️ Important: LeafyOS is for learning computer science only. Do not install it on your main computer. Always run it inside an emulator or virtual machine.
 
+
+
+✅ Legitimacy:
+LeafyOS is an original project created and developed by leafydevx.
+All source code is available on GitHub for transparency and learning.
+
+🛡️ Safety:
+LeafyOS is completely safe to run in an emulator (QEMU, VirtualBox).
+It is designed for educational purposes only and will NOT harm your system at any circumstances.
+
+
