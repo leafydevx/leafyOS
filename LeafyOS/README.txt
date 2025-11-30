@@ -79,4 +79,27 @@ Final Note:
 LeafyOS is not just an operating system project—it is a learning journey.
 Every module, driver, and file represents progress in understanding how
 computers work at the deepest level. This project is proof that with
-motivation and persistence, even complex systems can be built step by step.
+
+motivation and persistence, even complex systems can be built step by step. 
+
+
+
+
+
+LeafyOS is an educational operating system project. 
+To run it safely, use an emulator such as QEMU.
+
+Steps:
+1. Clone the repository:
+   git clone https://github.com/leafydevx/LeafyOS.git
+   cd LeafyOS
+
+2. Build or verify the bootloader and kernel files (boot.bldr, main.krnl).
+
+3. Run LeafyOS in QEMU:
+   qemu-system-x86_64 -drive format=raw,file=boot.bldr
+
+   (You can also point QEMU to your EFI/BOOT/BOOTX64.EFI file if you want to test UEFI boot.)
+
+4. LeafyOS will start, load drivers from leafy32/, and initialize modules.
+⚠️ Important: LeafyOS is for learning computer science only. Do not install it on your main computer. Always run it inside an emulator or virtual machine.
