@@ -4,7 +4,7 @@ LeafyOS
 Overview:
 LeafyOS is a custom-built operating system project created for education and productivity.
 It is designed to provide a clean, distraction-free environment where students and creators
-can focus on learning, note-taking, research, and building skills in computer science.
+can focus on learning in computer science.
 Unlike traditional operating systems, LeafyOS is lightweight, modular, and built from scratch
 to demonstrate how kernels, bootloaders, drivers, and modules work together.
 
@@ -165,6 +165,7 @@ Motherboard example:
 |       ├── Audio jacks (line out, mic, surround)      |
 |       └── WiFi antenna connectors (if present).      |
 +------------------------------------------------------+
+
 
 
 
