@@ -71,8 +71,8 @@ Final Note:
 LeafyOS is not just an operating system project—it is a learning journey.
 Every module, driver, and file represents progress in understanding how
 computers work at the deepest level. This project is proof that with
-
 motivation and persistence, even complex systems can be built step by step. 
+
 
 
 
@@ -165,6 +165,7 @@ Motherboard example:
 |       ├── Audio jacks (line out, mic, surround)      |
 |       └── WiFi antenna connectors (if present).      |
 +------------------------------------------------------+
+
 
 
 
